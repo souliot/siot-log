@@ -261,6 +261,7 @@ func (bl *BeeLogger) Write(p []byte) (n int, err error) {
 	lm := &LogMsg{
 		Msg:   string(p),
 		Level: levelLoggerImpl,
+		When:  time.Now(),
 	}
 
 	// set levelLoggerImpl to ensure all log message will be write out
