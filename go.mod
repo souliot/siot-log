@@ -1,4 +1,4 @@
-module slog
+module github.com/souliot/siot-log
 
 go 1.15
 
