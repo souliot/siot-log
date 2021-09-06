@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/beego/beego/v2/core/logs"
+	logs "github.com/souliot/siot-log"
 )
 
 func TestDefaultIndexNaming_IndexName(t *testing.T) {
