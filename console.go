@@ -37,6 +37,7 @@ func newBrush(color string) brush {
 }
 
 var colors = []brush{
+	newBrush("1;34"), // Unknown            blue
 	newBrush("1;37"), // Emergency          white
 	newBrush("1;36"), // Alert              cyan
 	newBrush("1;35"), // Critical           magenta
